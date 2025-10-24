@@ -12,6 +12,7 @@ Fatto inserire all’utente le dimensioni di un parallelepipedo scrivere un prog
 Esercizio 4- Caramelle
 Dato un numero di caramelle da dividere per un certo numero di amici, che ne devono ricevere tutti lo stesso numero, dire quante caramelle verranno date a testa e quante ne rimangono non distribuite.
 
+
 Esercizio 5 – Scambio di 3 variabili
 Richiedi all’utente di inserire tre numeri interi e memorizzali in tre variabili chiamate a b c, fai un programma che ne scambi il contenuto in modo che alla fine dell’esecuzione ogni variabile contenga quanto inizialmente presente nella variabile chiamata con la lettera precedente in ordine alfabetico, ad esclusione della a che conterrà il contenuto di quanto inizialmente presente in c.
 
