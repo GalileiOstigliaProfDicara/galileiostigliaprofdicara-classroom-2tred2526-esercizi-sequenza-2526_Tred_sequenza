@@ -1,20 +1,17 @@
-//Esercizio 2 – Quadrato e cubo
-//Fatto inserire all’utente un numero scrivere un programma 
-//che calcoli e comunichi all’utente il quadrato e il cubo del numero inserito.
+//Fatto inserire all’utente percentuale di sconto, prezzo pieno.
+// Quindi mostrare prezzo scontato e sconto.
 
 #include <stdio.h>
 
-int main() {
-    int numero, quadrato, cubo;
+int main(){
+    int percentuale;
+    float prezzo_pieno, prezzo_scontato, sconto;
 
-    printf("Inserisci il numero di cui vuoi il quadrato e il cubo: ");
-    scanf("%d", &numero);
-    quadrato = numero * numero;
-
-    printf("Il quadrato di %d è %d\n", numero, quadrato);
-
-    cubo = numero * numero * numero;
-    printf("Il cubo di %d è %d\n", numero, cubo);
-
-    return 0;
+    printf("Inserisci il prezzo pieno: ");
+    scanf("%f", &prezzo_pieno);
+    printf("Inserisci la percentuale di sconto: ");
+    scanf("%d", &percentuale);
+    sconto = prezzo_pieno * percentuale / 100;
+    prezzo_scontato = prezzo_pieno - sconto;
+    printf("Il prezzo scontato è %.2f euro e hai avuto %f euro di sconto", prezzo_scontato, sconto);
 }
