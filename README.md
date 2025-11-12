@@ -20,4 +20,4 @@ Esercizio 6 – Carattere precedente
 Fatto inserire all’utente un carattere stampare il carattere precedente nella tabella ASCII.
 
 Esercizio 7 – Ordine alfabetico
-Fatta inserire all’utente una lettera minuscola dell’alfabeto dire la sua posizione in ordine alfabetico (ad esempio se viene inserita la a viene restituito 1 se viene inserita la b viene restituito 2).
+Fatta inserire all’utente una lettera minuscola dell’alfabeto dire la sua posizione in ordine alfabetico (ad esempio se viene inserita la a viene restituito 1 se viene inserita la b viene restituito 2). Quindi fare in modo di trasformarla in maiuscola.
